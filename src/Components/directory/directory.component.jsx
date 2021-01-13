@@ -1,6 +1,14 @@
+//React
 import React from 'react';
+
+//Components
 import MenuItem from '../menu-item/menu-item.component';
+
+//Styles
 import './directory.styles.scss';
+
+//Misc
+
 
 class Directory extends React.Component{
     constructor(){

@@ -1,14 +1,12 @@
 //React
 import React from 'react';
 
-//Data
-
 //Components
 
 //Styles
 import './collection-item.styles.scss'
 
-//misc
+//Misc.
 
 
 const CollectionItem =({id,name,price,imageUrl})=>(

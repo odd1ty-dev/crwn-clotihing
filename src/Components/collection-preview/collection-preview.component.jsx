@@ -1,17 +1,13 @@
 //React
 import React from 'react';
 
-//Data
-
-
 //Components
 import CollectionItem from '../collection-item/collection-item.component'
 
-//misc
+//Styles
 import './collection-preview.styles.scss';
 
-
-
+//Misc.
 
 const CollectionPreview = ({title,items})=>(
     <div className='collection-preview'>
