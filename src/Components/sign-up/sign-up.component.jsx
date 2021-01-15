@@ -1,11 +1,11 @@
 /******************************************
  *  Author : quantumRaven23   
  *  Created On : Fri Jan 15 2021
- *  File : directory.styles.scss
+ *  File : sign-up.component.jsx
  *******************************************/
-.directory-menu {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+//React
+import React from 'react';
+
+//Components
+//Styles
+//Misc

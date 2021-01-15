@@ -1,4 +1,10 @@
-//React
+/******************************************
+ *  Author : quantumRaven23   
+ *  Created On : Fri Jan 15 2021
+ *  File : menu-item.component.jsx
+ *******************************************/
+
+ //React
 import React from 'react';
 import {withRouter} from 'react-router-dom';
 

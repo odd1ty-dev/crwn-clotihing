@@ -1,3 +1,8 @@
+/******************************************
+ *  Author : quantumRaven23   
+ *  Created On : Fri Jan 15 2021
+ *  File : header.component.jsx
+ *******************************************/
 //React and Libraries
 import React from 'react';
 import {Link} from 'react-router-dom';

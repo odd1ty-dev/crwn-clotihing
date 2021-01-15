@@ -1,3 +1,8 @@
+/******************************************
+ *  Author : quantumRaven23   
+ *  Created On : Fri Jan 15 2021
+ *  File : shop.component.jsx
+ *******************************************/
 //React
 import React from 'react';
 
