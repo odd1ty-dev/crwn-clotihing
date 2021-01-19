@@ -3,3 +3,13 @@
 *  Created On : Fri Jan 15 2021
 *  File : sign-up.styles.scss
 *******************************************/
+.sign-up{
+    display:flex;
+    flex-direction: column;
+    width: 380px;
+
+    .title {
+        margin:10px 0;
+
+    }
+}
