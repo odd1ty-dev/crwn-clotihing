@@ -12,7 +12,7 @@ import CollectionItem from '../collection-item/collection-item.component'
 //Styles
 import './collection-preview.styles.scss';
 
-//Misc.
+//Misc
 
 const CollectionPreview = ({title,items})=>(
     <div className='collection-preview'>

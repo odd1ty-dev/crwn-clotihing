@@ -3,9 +3,10 @@
  *  Created On : Fri Jan 15 2021
  *  File : header.component.jsx
  *******************************************/
-//React and Libraries
+//React, Redux, and other core libraries
 import React from 'react';
 import {Link} from 'react-router-dom';
+import {connect} from 'react-redux';
 
 //Components
 
@@ -43,4 +44,8 @@ const Header =({currentUser})=>(
     </div>
 );
 
-export default Header;
+const mapStatetoProps = state =>({
+    currentUser: state.user.currentUser
+});
+
+export default connect(mapStatetoProps)(Header);
