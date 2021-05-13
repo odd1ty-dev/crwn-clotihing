@@ -7,7 +7,10 @@
 //React
 import React from 'react';
 
+//Redux
+
 //Components
+
 //Styles
 import './cart-item.styles.scss';
 

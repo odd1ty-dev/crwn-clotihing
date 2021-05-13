@@ -5,6 +5,8 @@
  *******************************************/
 //React
 import React from 'react';
+
+//Redux
 import {connect} from 'react-redux';
 import {addItem} from '../../redux/cart/cart.actions'
 

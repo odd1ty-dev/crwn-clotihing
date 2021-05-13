@@ -6,6 +6,8 @@
 //React
 import React from 'react';
 
+//Redux
+
 //Components
 import CollectionItem from '../collection-item/collection-item.component'
 
