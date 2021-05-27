@@ -9,6 +9,7 @@ import React from 'react';
 
 //Components
 import CheckoutItem from '../../Components/checkout-item/checkout-item.component';
+import StripeCheckoutButton from '../../Components/stripe-button/stripe-button.component';
 
 //Styles
 import './checkout.styles.scss'
@@ -42,9 +43,13 @@ const CheckoutPage = ({cartItems,total}) =>(
                     <CheckoutItem key={cartItem.id} cartItem={cartItem}/>
                 ))
             }
-            <div className='total'>
-                <span>TOTAL: ${total}</span>
+            <div className='total'>TOTAL: ${total}</div>
+            <div className='test-warning'>
+                *PLEASE USE THE FOLLOWING TEST CREDIT CARD FOR PAYMENT 
+                <br/>
+                4242 4242 4242 4242 - 01/30 - 1234    
             </div>
+            <StripeCheckoutButton price={total}/>
     </div>
 )
 
