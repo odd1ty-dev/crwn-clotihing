@@ -26,6 +26,7 @@ import {withRouter} from 'react-router-dom';
 const CartDropdown = ({cartItems, history, dispatch}) =>(
     <div className='cart-dropdown'>
         <div className='cart-items'>
+            {console.log(cartItems)}
             {
                 cartItems.length ? 
                 (cartItems.map( cartItem =>(
